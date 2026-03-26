@@ -117,7 +117,7 @@ const seoImageResults: SeoImageResult[] = [
 
 export default function PortfolioSeoResults() {
   return (
-    <section className="section bg-[var(--background-alt)]">
+    <section id="seo-results" className="section bg-[var(--background-alt)]">
       <div className="container">
         <div className="mb-12 text-center">
           <span className="mb-3 block font-bold uppercase tracking-wider text-[var(--accent)]">

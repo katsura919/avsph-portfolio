@@ -1,3 +1,4 @@
+import BookingEmbed from "@/components/BookingEmbed";
 import CTABookACall from "@/components/CTABookACall";
 import PortfolioCapabilities from "@/components/portfolio/PortfolioCapabilities";
 import PortfolioClients from "@/components/portfolio/PortfolioClients";
@@ -8,7 +9,9 @@ import PortfolioProcess from "@/components/portfolio/PortfolioProcess";
 import PortfolioSeoResults from "@/components/portfolio/PortfolioSeoResults";
 import PortfolioStats from "@/components/portfolio/PortfolioStats";
 import PortfolioTestimonials from "@/components/portfolio/PortfolioTestimonials";
-
+import PortfolioWebLandingWorks from "@/components/portfolio/PortfolioWebLandingWorks";
+import PortfolioWhyChooseUs from "@/components/portfolio/PortfolioWhyChooseUs";
+import Footer from "@/components/Footer";
 export default function PortfolioPage() {
   return (
     <main className="bg-[var(--background)]">
@@ -24,29 +27,32 @@ export default function PortfolioPage() {
       {/* 4. Featured Work — best proof pieces up front */}
       {/* <PortfolioFeatured /> */}
       <PortfolioGallery />
-      {/* 5. SEO Results — dedicated performance proof section */}
+
+      {/* 5. Web Landing Pages — dedicated mockup showcase */}
+      <PortfolioWebLandingWorks />
+
+      {/* 6. SEO Results — dedicated performance proof section */}
+
       <PortfolioSeoResults />
 
       {/* 6. Testimonials — social proof while work is fresh in mind */}
-      <PortfolioTestimonials />
+      {/* <PortfolioTestimonials /> */}
 
       {/* 7. Capabilities — why they're the right choice */}
-      <PortfolioCapabilities />
+      {/* <PortfolioCapabilities /> */}
 
       {/* 8. Process — how it gets done */}
-      <PortfolioProcess />
+      {/* <PortfolioProcess /> */}
 
       {/* 9. Full Gallery — browse everything */}
 
-      {/* 10. CTA — convert */}
-      <section className="section bg-white">
-        <div className="container">
-          <CTABookACall
-            title="Ready to launch your next high-converting page?"
-            subtitle="Let's map the page, assign the right VA, and build a system that turns every visitor into revenue."
-          />
-        </div>
-      </section>
+      {/* 10. Why Choose Us — key differentiators */}
+      <PortfolioWhyChooseUs />
+
+      {/* 11. Booking — convert with direct calendar embed */}
+      <BookingEmbed />
+
+      <Footer />
     </main>
   );
 }

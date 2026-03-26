@@ -2,7 +2,7 @@
 
 export default function PortfolioProcess() {
   return (
-    <section className="section bg-[var(--background-alt)]">
+    <section id="process" className="section bg-[var(--background-alt)]">
       <div className="container">
         <div className="mb-12 text-center">
           <span className="mb-3 block font-bold uppercase tracking-wider text-[var(--accent)]">
@@ -38,4 +38,3 @@ export default function PortfolioProcess() {
     </section>
   );
 }
-

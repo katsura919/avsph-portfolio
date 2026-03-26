@@ -10,7 +10,7 @@ const iconMap: Record<string, LucideIcon> = {
 
 export default function PortfolioCapabilities() {
   return (
-    <section className="section bg-white">
+    <section id="capabilities" className="section bg-white">
       <div className="container">
         <div className="mb-12 text-center">
           <span className="mb-3 block font-bold uppercase tracking-wider text-[var(--accent)]">
