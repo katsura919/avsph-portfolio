@@ -14,9 +14,6 @@ export default function PortfolioHero() {
       id="home"
       className="relative overflow-hidden bg-white pt-32 pb-20"
     >
-      <div className="pointer-events-none absolute -left-28 top-10 h-64 w-64 rounded-full bg-[var(--primary)]/10 blur-3xl" />
-      <div className="pointer-events-none absolute -right-20 bottom-0 h-72 w-72 rounded-full bg-[var(--accent)]/15 blur-3xl" />
-      <div className="pointer-events-none absolute left-1/2 top-1/3 h-56 w-56 -translate-x-1/2 rounded-full bg-[var(--primary)]/5 blur-3xl" />
 
       <div className="container relative z-10">
         <div className="grid items-center gap-12 lg:grid-cols-[1fr_0.95fr]">

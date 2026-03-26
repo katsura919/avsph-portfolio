@@ -12,53 +12,6 @@ import {
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
-  const footerLinks = {
-    company: [
-      { label: "About Us", href: "/about" },
-      { label: "How We Work", href: "/about" },
-      // { label: "Careers", href: "/careers" },
-      { label: "Blog", href: "/blog" },
-    ],
-    services: [
-      {
-        label: "Administrative Support",
-        href: "/services/administrative-support",
-      },
-      {
-        label: "Call Handling & Customer Support",
-        href: "/services/call-handling-and-customer-support",
-      },
-      {
-        label: "Scheduling & Dispatching",
-        href: "/services/scheduling-and-dispatching",
-      },
-      {
-        label: "Estimates & Invoicing",
-        href: "/services/estimates-and-invoicing",
-      },
-      { label: "Bookkeeping Support", href: "/services/book-keeping-support" },
-      {
-        label: "Lead Intake & Follow-Ups",
-        href: "/services/lead-intake-and-follow-ups",
-      },
-      {
-        label: "Review & Reputation Management",
-        href: "/services/review-and-reputation-management",
-      },
-      {
-        label: "Operations & Task Coordination",
-        href: "/services/operations-and-task-coordination",
-      },
-    ],
-    resources: [
-      { label: "FAQs", href: "/faqs" },
-      { label: "Savings Calculator", href: "/resources/savings-calculator" },
-      { label: "Delegation Matrix", href: "/resources/delegation-matrix" },
-      { label: "Web Services", href: "/web-services" },
-      { label: "Contact Us", href: "#contact" },
-    ],
-  };
-
   const socialLinks = [
     {
       name: "Facebook",
@@ -83,11 +36,10 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="bg-white text-gray-600 border-t border-gray-100">
-      <div className="container py-16">
-        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-12">
-          {/* Brand Column */}
-          <div className="lg:col-span-2">
+    <footer className="bg-white text-gray-600">
+      {/* <div className="container py-16">
+        <div className="mx-auto flex max-w-5xl flex-col items-center text-center md:items-start md:text-left">
+          <div>
             <Link href="/" className="flex items-center gap-2 mb-6">
               <Image
                 src="/logo.jpeg"
@@ -115,14 +67,14 @@ export default function Footer() {
               Your trusted partner for premium virtual staffing solutions. We
               connect businesses with exceptional talent from our top 1% pool.
             </p>
-            <div className="flex gap-4 mb-6">
+            <div className="mb-6 flex gap-4">
               {socialLinks.map((social) => (
                 <a
                   key={social.name}
                   href={social.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-10 h-10 rounded-lg flex items-center justify-center transition-colors bg-gray-100 hover:bg-primary hover:text-white"
+                  className="flex h-10 w-10 items-center justify-center rounded-lg bg-gray-100 transition-colors hover:bg-[var(--primary)] hover:text-white"
                   aria-label={social.name}
                 >
                   {social.icon}
@@ -147,62 +99,13 @@ export default function Footer() {
               </a>
             </div>
           </div>
-
-          {/* Links Columns */}
-          <div>
-            <h4 className="font-semibold text-gray-900 mb-4">Company</h4>
-            <ul className="space-y-3">
-              {footerLinks.company.map((link) => (
-                <li key={link.label}>
-                  <Link
-                    href={link.href}
-                    className="hover:text-primary transition-colors"
-                  >
-                    {link.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="font-semibold text-gray-900 mb-4">Services</h4>
-            <ul className="space-y-3">
-              {footerLinks.services.map((link) => (
-                <li key={link.label}>
-                  <Link
-                    href={link.href}
-                    className="hover:text-primary transition-colors"
-                  >
-                    {link.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="font-semibold text-gray-900 mb-4">Resources</h4>
-            <ul className="space-y-3">
-              {footerLinks.resources.map((link) => (
-                <li key={link.label}>
-                  <Link
-                    href={link.href}
-                    className="hover:text-primary transition-colors"
-                  >
-                    {link.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Copyright Bar */}
-      <div className="py-4 bg-gray-50 border-t border-gray-200">
-        <div className="container flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
-          <p>© {currentYear} Advanced Virtual Staff. All rights reserved.</p>
+      <div className="py-4 bg-primary">
+        <div className="container flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-white">
+          <p className="text-white">© {currentYear} Advanced Virtual Staff. All rights reserved.</p>
           <div className="flex gap-6">
             <Link
               href="/privacy"
