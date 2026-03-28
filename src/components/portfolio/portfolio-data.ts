@@ -381,6 +381,91 @@ export const portfolioItems: PortfolioItem[] = [
       "https://res.cloudinary.com/dg1i3ew9w/image/upload/v1774518467/Happy_customers_2_bl13il.png",
     ],
   },
+  {
+    id: "ducts-all-done",
+    title: "Ducts All Done Posts",
+    category: "Social Media Post",
+    type: "image",
+    summary:
+      "HVAC service social media creatives showcasing professional duct cleaning and maintenance work.",
+    tags: ["HVAC", "Social Media", "Service"],
+    format: "PNG • 14 posts",
+    preview:
+      "https://res.cloudinary.com/dg1i3ew9w/image/upload/v1774667004/WhatsApp_Image_2026-03-27_at_9.38.41_PM_oy6qi9.jpg",
+    images: [
+      "https://res.cloudinary.com/dg1i3ew9w/image/upload/v1774667004/WhatsApp_Image_2026-03-27_at_9.38.41_PM_oy6qi9.jpg",
+      "https://res.cloudinary.com/dg1i3ew9w/image/upload/v1774667008/WhatsApp_Image_2026-03-27_at_9.38.42_PM_3_nsw7xk.jpg",
+      "https://res.cloudinary.com/dg1i3ew9w/image/upload/v1774667008/WhatsApp_Image_2026-03-27_at_9.38.42_PM_1_ct2z5t.jpg",
+      "https://res.cloudinary.com/dg1i3ew9w/image/upload/v1774667007/WhatsApp_Image_2026-03-27_at_9.51.17_PM_khvghw.jpg",
+      "https://res.cloudinary.com/dg1i3ew9w/image/upload/v1774667007/WhatsApp_Image_2026-03-27_at_9.38.42_PM_4_hoxv11.jpg",
+      "https://res.cloudinary.com/dg1i3ew9w/image/upload/v1774667007/WhatsApp_Image_2026-03-27_at_9.38.42_PM_2_ruuakx.jpg",
+      "https://res.cloudinary.com/dg1i3ew9w/image/upload/v1774667006/WhatsApp_Image_2026-03-27_at_9.38.42_PM_v1ivmc.jpg",
+      "https://res.cloudinary.com/dg1i3ew9w/image/upload/v1774667006/WhatsApp_Image_2026-03-27_at_9.38.42_PM_5_cedxgs.jpg",
+      "https://res.cloudinary.com/dg1i3ew9w/image/upload/v1774667006/WhatsApp_Image_2026-03-27_at_9.38.41_PM_9_xfeywq.jpg",
+      "https://res.cloudinary.com/dg1i3ew9w/image/upload/v1774667006/WhatsApp_Image_2026-03-27_at_9.38.41_PM_4_qnibnh.jpg",
+      "https://res.cloudinary.com/dg1i3ew9w/image/upload/v1774667005/WhatsApp_Image_2026-03-27_at_9.38.41_PM_8_ujisoz.jpg",
+      "https://res.cloudinary.com/dg1i3ew9w/image/upload/v1774667005/WhatsApp_Image_2026-03-27_at_9.38.41_PM_6_ecpzob.jpg",
+      "https://res.cloudinary.com/dg1i3ew9w/image/upload/v1774667005/WhatsApp_Image_2026-03-27_at_9.38.41_PM_7_mtxb3a.jpg",
+      "https://res.cloudinary.com/dg1i3ew9w/image/upload/v1774667005/WhatsApp_Image_2026-03-27_at_9.38.41_PM_3_q1cp3o.jpg",
+    ],
+  },
+  {
+    id: "ducts-all-done-carousel-1",
+    title: "Ducts All Done carousel post 1",
+    category: "Social Media Post",
+    type: "image",
+    summary:
+      "Carousel-style post for Ducts All Done showcasing service highlights and customer benefits.",
+    tags: ["Carousel", "HVAC", "Social Media"],
+    format: "PNG • 5 slides",
+    preview:
+      "https://res.cloudinary.com/dg1i3ew9w/image/upload/v1774667138/WhatsApp_Image_2026-03-27_at_9.59.53_PM_fwbhcq.jpg",
+    images: [
+      "https://res.cloudinary.com/dg1i3ew9w/image/upload/v1774667138/WhatsApp_Image_2026-03-27_at_9.59.53_PM_fwbhcq.jpg",
+      "https://res.cloudinary.com/dg1i3ew9w/image/upload/v1774667136/WhatsApp_Image_2026-03-27_at_9.59.52_PM_b8iai1.jpg",
+      "https://res.cloudinary.com/dg1i3ew9w/image/upload/v1774667134/WhatsApp_Image_2026-03-27_at_9.59.52_PM_1_out5x5.jpg",
+      "https://res.cloudinary.com/dg1i3ew9w/image/upload/v1774667134/WhatsApp_Image_2026-03-27_at_9.59.52_PM_2_upjmo4.jpg",
+      "https://res.cloudinary.com/dg1i3ew9w/image/upload/v1774667133/WhatsApp_Image_2026-03-27_at_9.59.53_PM_1_otrriw.jpg",
+    ],
+  },
+  {
+    id: "ducts-all-done-carousel-2",
+    title: "Ducts All Done carousel post 2",
+    category: "Social Media Post",
+    type: "image",
+    summary:
+      "Carousel-style post for Ducts All Done showcasing service highlights and customer benefits.",
+    tags: ["Carousel", "HVAC", "Social Media"],
+    format: "PNG • 5 slides",
+    preview:
+      "https://res.cloudinary.com/dg1i3ew9w/image/upload/v1774667123/WhatsApp_Image_2026-03-27_at_9.54.00_PM_1_twhye0.jpg",
+    images: [
+      "https://res.cloudinary.com/dg1i3ew9w/image/upload/v1774667123/WhatsApp_Image_2026-03-27_at_9.54.00_PM_1_twhye0.jpg",
+      "https://res.cloudinary.com/dg1i3ew9w/image/upload/v1774667115/WhatsApp_Image_2026-03-27_at_9.54.00_PM_mik8dx.jpg",
+      "https://res.cloudinary.com/dg1i3ew9w/image/upload/v1774667099/WhatsApp_Image_2026-03-27_at_9.54.01_PM_2_msyhtk.jpg",
+      "https://res.cloudinary.com/dg1i3ew9w/image/upload/v1774667099/WhatsApp_Image_2026-03-27_at_9.54.01_PM_1_vw8cfg.jpg",
+      "https://res.cloudinary.com/dg1i3ew9w/image/upload/v1774667098/WhatsApp_Image_2026-03-27_at_9.54.01_PM_remmn7.jpg",
+    ],
+  },
+  {
+    id: "ducts-all-done-carousel-3",
+    title: "Ducts All Done carousel post 3",
+    category: "Social Media Post",
+    type: "image",
+    summary:
+      "Carousel-style post for Ducts All Done showcasing service highlights and customer benefits.",
+    tags: ["Carousel", "HVAC", "Social Media"],
+    format: "PNG • 5 slides",
+    preview:
+      "https://res.cloudinary.com/dg1i3ew9w/image/upload/v1774667094/WhatsApp_Image_2026-03-27_at_9.51.18_PM_2_pozqml.jpg",
+    images: [
+      "https://res.cloudinary.com/dg1i3ew9w/image/upload/v1774667094/WhatsApp_Image_2026-03-27_at_9.51.18_PM_2_pozqml.jpg",
+      "https://res.cloudinary.com/dg1i3ew9w/image/upload/v1774667093/WhatsApp_Image_2026-03-27_at_9.51.18_PM_1_iefsce.jpg",
+      "https://res.cloudinary.com/dg1i3ew9w/image/upload/v1774667067/WhatsApp_Image_2026-03-27_at_9.51.17_PM_adfo7j.jpg",
+      "https://res.cloudinary.com/dg1i3ew9w/image/upload/v1774667067/WhatsApp_Image_2026-03-27_at_9.51.18_PM_lbmb8l.jpg",
+      "https://res.cloudinary.com/dg1i3ew9w/image/upload/v1774667067/WhatsApp_Image_2026-03-27_at_9.51.18_PM_3_vtmfcs.jpg",
+    ],
+  },
 ];
 
 export const portfolioCapabilities: PortfolioCapability[] = [
